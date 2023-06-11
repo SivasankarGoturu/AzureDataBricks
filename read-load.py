@@ -28,11 +28,11 @@ display(df)
 
 # COMMAND ----------
 
-df.write.parquet("dbfs:/mnt/sales/landing", mode="overwrite")
+df.write.parquet("dbfs:/mnt/sales/processed/customers/", mode="overwrite")
 
 # COMMAND ----------
 
-df2 = spark.read.csv("dbfs:/mnt/sales/landing")
+df2 = spark.read.csv("dbfs:/mnt/sales/landing/")
 
 # COMMAND ----------
 
