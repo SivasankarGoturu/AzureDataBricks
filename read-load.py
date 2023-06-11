@@ -36,4 +36,4 @@ df2 = spark.read.csv("dbfs:/mnt/sales/landing")
 
 # COMMAND ----------
 
-df2.write.parquet("dbfs:/mnt/sales/discard/")
+df2.write.parquet("dbfs:/mnt/sales/discard/", mode = "overwrite")
