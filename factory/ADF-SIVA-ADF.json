@@ -1,0 +1,9 @@
+{
+	"name": "ADF-SIVA-ADF",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "682e2711-3c44-47d3-bfa0-0e7d7a4da50f",
+		"tenantId": "fd21bc6b-161b-477d-9f15-f1211bf7d369"
+	}
+}
